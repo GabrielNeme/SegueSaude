@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base da aplicação -->
+    <style name="Base.Theme.SegueSaude" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">#36A3C0</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">#36A3C0</item>
+        <item name="colorPrimaryVariant">#2B8DAA</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#36A3C0</item>
+        <item name="android:windowBackground">#FAFAFA</item>
+    </style>
+
+    <!-- Tema usado pelas activities -->
+    <style name="Theme.SegueSaude" parent="Base.Theme.SegueSaude" />
+
+    <style name="CampoSenhaEstilizado" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="endIconMode">password_toggle</item>
+        <item name="boxStrokeColor">#36A3C0</item>
+        <item name="boxBackgroundColor">#FFFFFF</item>
+    </style>
+</resources>

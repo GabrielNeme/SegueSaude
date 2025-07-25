@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "29409640683",
+    "project_id": "seguesaude-e0be5",
+    "storage_bucket": "seguesaude-e0be5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29409640683:android:11498c62eaac6f825f3eae",
+        "android_client_info": {
+          "package_name": "com.example.seguesaude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29409640683-2cg843m3jkj4p60lb12ig6ol1dn1orq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seguesaude",
+            "certificate_hash": "c7cf270d95e1ddf3bc086052533d00be88dae928"
+          }
+        },
+        {
+          "client_id": "29409640683-haisi2t84uuebhn042cbp5sur0v8q1u1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7eFU4IYiSpOFoQXcW_yGfR7YoABvRlPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29409640683-haisi2t84uuebhn042cbp5sur0v8q1u1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

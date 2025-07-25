@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/campoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/campoSobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sobrenome"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:background="@drawable/edit_text_background" />
+
+
+    <EditText
+        android:id="@+id/campoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email (não editável)"
+        android:inputType="textEmailAddress"
+        android:textColor="#999999"
+        android:enabled="false"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnConfirmarCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Cadastro"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
